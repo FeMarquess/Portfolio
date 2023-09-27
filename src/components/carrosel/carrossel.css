@@ -1,0 +1,54 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0,3s ease-in-out;
+  }
+  
+  .project {
+    max-width: 500px;
+    margin: 0 auto;
+    transition: transform 0,3s ease-in-out;
+  }
+  
+  .project img {
+    max-width: 100%;
+    box-shadow: 2px 2px rgb(201, 201, 201);
+  }
+  
+  .project p {
+    margin: 16px;
+  } 
+
+  .project h2 {
+    margin: 8px;
+  }
+
+  .buttons {
+    margin-top: 16px;
+  }
+  
+  .buttons a {
+    background-color: #97b2c6;
+    padding: 8px;
+    margin: 16px 8px;
+    border-radius: 17px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .carousel button {
+    background-color: transparent;
+    padding: 12px;
+    height: 2%;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    margin: 0 10px;
+  }
+  

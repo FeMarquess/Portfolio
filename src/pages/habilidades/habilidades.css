@@ -1,0 +1,48 @@
+.habilidades-wrapper {
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades img {
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    .habilidades-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .habilidades {
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+    }
+    .habilidades img {
+        display: grid;
+        justify-self: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 20px;
+    }
+    .habilidades p {
+        font-size: 14px;
+    }
+    .card {
+        margin: 10px;
+    }
+}

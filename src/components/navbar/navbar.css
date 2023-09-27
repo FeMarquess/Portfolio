@@ -1,0 +1,67 @@
+.linkbtn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link {
+    display: inline-block;
+    background-color: #97b2c6;
+    border-radius: 17px;
+    text-decoration: none;
+    padding: 8px;
+    margin: 0 8px;
+    color: black;
+}
+
+.Navbar li {
+    list-style: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.Navbar li:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.Navbar Imgbtn {
+    background-color: #333;
+}
+
+.Navbar button {
+    background-color: transparent;
+    border-radius: 50%;
+    max-height: 32px;
+    max-width: 32px;
+    padding: unset;
+    border: none;
+    margin-right: 8px;
+}
+
+#btn-github:hover{
+    background-color: rgb(136, 136, 136);
+}
+
+#btn-linkedin:hover {
+    background-color: rgb(117, 161, 255);
+}
+
+#btn-whatsapp:hover {
+    background-color: rgb(185, 255, 179);
+}
+
+@media(max-width: 768px){
+    .link{
+        font-size: 12px;
+        padding: 4px;
+        margin: 4px;
+    }
+    .Navbar button {
+        height: 20px;
+        width: 20px;
+    }
+}

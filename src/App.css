@@ -1,38 +1,80 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+    position: relative;
+    height: 5vh;
+}
+
+.Navbar::after {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: #000;
+    content: "";
+}
+
+.App-wrapper {
+    height: 100vh;
+}
+
 .App {
-  text-align: center;
+    height: 90vh;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App::after {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: #000;
+    content: "";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark-mode::after {
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.light-mode {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-mode {
+    background: linear-gradient(to bottom, rgb(31, 28, 59), rgb(0, 0, 0));
+    color: white;
+    transition: 0.5s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dark-mode button {
+    background-color: transparent;
+    color: white;
+}
+
+.dark-mode a {
+    color: white;
+}
+
+.dark-mode ::after {
+    background-color: white;
+}
+
+.dark-mode link {
+    background-color: white;
+}
+
+.dark-mode .buttons a {
+    background-color: rgb(68, 63, 114);
+    color: white;
+}
+
+.dark-mode .link {
+    background-color: rgb(68, 63, 114);
+    color: white;
 }
