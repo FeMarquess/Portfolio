@@ -21,7 +21,7 @@
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) and (orientation: portrait){
     .habilidades-wrapper {
         display: flex;
         justify-content: center;

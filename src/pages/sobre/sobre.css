@@ -58,3 +58,18 @@ p{
         max-width: 80vw;
     }
 }
+
+@media (max-width: 930px) and (orientation: landscape){
+    .informacoes-wrapper img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .texto-wrapper h1{
+        font-size: 36px;
+    }
+
+    .texto-wrapper p{
+        font-size: 16px;
+    }
+}

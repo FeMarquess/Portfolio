@@ -11,3 +11,19 @@
     align-content: center;
     padding: 5%;
 }
+
+@media (max-width: 930px) and (orientation: landscape){
+    .project img {
+        width: 300px;
+        height: 180px;
+    }
+    .project h2 {
+        font-size: 20px;
+    }
+    .project p {
+        font-size: 14px;
+    }
+    .buttons a {
+        font-size: 14px;
+    }
+}

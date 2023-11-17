@@ -2,8 +2,16 @@ import React, { useState } from 'react';
 import './carrossel.css';
 import Organize from "../../imagens/projeto organize.png"
 import Landingpage from "../../imagens/landingpage.png"
+import Gerenciamento from "../../imagens/geren-custo.png"
 
 const projects = [
+  {
+    title: 'Gerenciamento Financeiro',
+    description: 'Greneciamento de custos de uma empresa com React TypeScript',
+    image: Gerenciamento,
+    githubLink: 'https://github.com/FeMarquess/GerenciamentoFinanceiro',
+    deployLink: 'https://gerenciamento-financeiro-git-main-femarquess.vercel.app/',
+  },
   {
     title: 'Organize',
     description: 'Projeto em React JS com o foco em ajudar a organizar suas tarefas diárias',
